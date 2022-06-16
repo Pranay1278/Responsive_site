@@ -1,0 +1,131 @@
+
+
+.page{    
+font-weight: 400;
+line-height: 1.5;
+text-align: left;
+box-sizing: border-box;
+display: flex;
+flex-direction: row-reverse;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-size: cover !important;
+}
+.form-div{
+    margin-top: 80px;
+}
+.form-container {
+    width:385px;
+    margin:auto;
+    padding-left:10px;
+    padding-right:20px;
+  }
+
+  p{
+    box-sizing: border-box;
+    margin: 20px 0px 10px 0px;
+    text-align: start;
+    
+    font-size: 30px;
+    color:black;
+  }
+  h3{
+      font-size: 25px;
+  }
+  
+
+  .username-input {
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #dde6e7;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+    width: 100%;
+}
+.submit{
+    border: none;
+    color: white;
+    margin-top: 6px;
+    background-color: #00a9b7;
+    
+}
+.signin{
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    float: left;
+    border-radius: 2px;
+    background-color: #00a9b7;
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+}
+
+.l1{
+    margin-top: 40px;
+}
+.l2{
+    font-size: 20px;
+}
+.form-footer {
+    width: 100%;
+    margin-top: 120px;
+    color: blue;
+    font-size: 10px;
+    display: flex;
+}
+.or{
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.terms{
+    margin-left: 6px;
+}
+img{
+    display: flex;
+    width: 30%;
+    margin-left: 250px;
+}
+
+@media (min-width:300px)  and (max-width:767px){
+    .bg {
+        display: none !important;
+      }
+      .page {
+        display: flex;
+        height: 100vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+      }
+      .sign-text{
+        font-size: 1.6em;
+      }
+      h3{
+          color: #6d6f72;
+          font-size: x-large;
+      }
+      .l2{
+          font-size: 20px;
+      }
+      .form-footer{
+          color: #6d6f72;
+      }
+     
+}
